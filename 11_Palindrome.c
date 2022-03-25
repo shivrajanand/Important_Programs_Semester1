@@ -18,8 +18,14 @@ int main()
         temp = temp / 10;
     }
 
-    printf("Original Number: %d\n", num);
-    printf("Reverse Number: %d", reverse);
+    if (reverse == num)
+    {
+        printf("%d is palindrome", num);   
+    }
+    else{
+        printf("%d is not palindrome", num);
+    }
+    
 
     return 0;
 }
