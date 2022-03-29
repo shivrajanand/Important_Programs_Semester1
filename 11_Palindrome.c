@@ -20,12 +20,12 @@ int main()
 
     if (reverse == num)
     {
-        printf("%d is palindrome", num);   
+        printf("%d is palindrome", num);
     }
-    else{
+    else
+    {
         printf("%d is not palindrome", num);
     }
-    
 
     return 0;
 }
